@@ -1,0 +1,18 @@
+.tab{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.titlebar:nth-child(odd){
+    background-color: beige;
+    border-radius: 20px;
+    border: 3px solid red;
+}
+.bodybar:nth-child(odd){
+    background-color: beige;
+     border-radius: 20px;
+}
+.bodybar:nth-child(even){
+    background-color: lightgrey;
+     border-radius: 20px;
+}
